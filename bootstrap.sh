@@ -22,7 +22,7 @@ install 'development tools' build-essential
 install Ruby ruby2.4 ruby2.4-dev
 update-alternatives --set ruby /usr/bin/ruby2.4 >/dev/null 2>&1
 update-alternatives --set gem /usr/bin/gem2.4 >/dev/null 2>&1
-sudo gem install rails
+
 echo installing current RubyGems
 gem update --system -N >/dev/null 2>&1
 
